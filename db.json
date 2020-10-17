@@ -2,8 +2,9 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "hello"
+      "name": 1,
+      "email": "hello"
+      "pass": 2234;
     }
   ],
   "profile": {
