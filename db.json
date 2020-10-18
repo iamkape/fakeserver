@@ -2,7 +2,7 @@
 {
   "posts": [
     {
-      "name": 1,
+      "title": 1,
       "email": "hello",
       "pass": 2234
     }
