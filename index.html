@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport">
+	<title>Registration</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+		<form action="" method="POST">
+			<h1>Пользовательские данные</h1>
+				<div>
+					<label>Имя:</label>
+					<input type="text" name="nameUser" id="name" pattern="[А-Яа-яЁё]*" placeholder="Введите ваше имя"required >
+				</div>
+				<div>
+					<label>Пароль:</label>
+					<input type="password" id="pass" name="passUser" placeholder="не менее 8 символов"required>
+				</div>
+				<div>
+					<label>Эл.почта:</label>
+					<input type="email"  name="emailUser" id="emailUser"placeholder="example@email.com"required>
+				</div>
+				<div>
+					<button>Отправить данные</button>
+				</div>
+		</form>
+		<p class="result"></p>
+		<script src="script.js" ></script>
+</body>
+</html>
