@@ -2,9 +2,10 @@
 {
   "posts": [
     {
-      "title": 1,
+     /* "name": 1,
       "email": "hello",
       "pass": 2234
+      */
     }
   ],
   "profile": {
